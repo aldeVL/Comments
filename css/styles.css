@@ -1,0 +1,72 @@
+.ImageRow img{
+      display: block;
+      margin: 0 auto;
+	  width: 30%;
+	  height: 40%;
+    }
+.sss{
+      display: flex;
+	  justify-content: center;
+}
+.CaptchaImg{
+	display: block;
+    margin: 0 auto;
+	margin-top: 0;
+	margin-bottom: 0.5%;
+	border: 1px solid gray;
+	
+}
+.ImageRow{
+	margin: 0
+}
+
+.CommentRow{
+	margin-top: 1%;
+}
+
+.CommentList{
+
+}
+
+.inputs{
+	width: 20%;
+	height: 15%;
+	display: block;
+	margin: 0 auto;
+}
+.CaptchaInput{
+	width: 10%;
+	height: 4%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1%;
+}
+button.captcha__refresh{
+	position:relative;
+	left: 53%;
+	width: 2%;
+	height: 4%;
+	font-size: 1em
+}
+.g-recaptcha{
+	width: 22.5%;
+	height: 15%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+.submitbtn{
+	width: 10%;
+	Height: 7%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0;
+}
+
+#CommentArea{
+	margin-top: 1%;
+}
+#Name{
+	height: 4%;
+}
