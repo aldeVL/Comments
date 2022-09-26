@@ -1,6 +1,5 @@
 <?php
 include ("connect.php");
-
 if($_POST['del'] != '') {  
     $del = $_POST['del'];
     $result = mysqli_query($mysql, "SELECT * FROM comments WHERE id='".$del."'") or die(mysqli_error($mysql));
