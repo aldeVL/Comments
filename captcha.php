@@ -1,6 +1,5 @@
 <?php
 define('USE_SESSION', true);
-//символы, из которых будет составляться код капчи
 $chars = '123456789abcdefghjkmnpqrstuvwxyz';
 //Количество символов в капче
 $length = 6;
