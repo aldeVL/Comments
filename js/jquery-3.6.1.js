@@ -163,7 +163,7 @@ var
 
 jQuery.fn = jQuery.prototype = {
 
-	// The current version of jQuery being used
+	// The current version of jQuery bein used
 	jquery: version,
 
 	constructor: jQuery,
