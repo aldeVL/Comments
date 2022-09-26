@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 include("connect.php");
 	$result = mysqli_query($mysql, "SELECT id, author, message, DATE_FORMAT(date, '%d.%m.%Y - %H:%i') as date FROM comments ORDER BY date DESC");
