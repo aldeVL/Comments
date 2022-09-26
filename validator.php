@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 $captcha = $_SESSION['captcha'];
 $fakt = $_POST['captcha'];
